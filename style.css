@@ -63,6 +63,7 @@ p {
   .star {
     width: 25px;
     height: 25px;
+  }
   .card {
     border-bottom: 1px solid hsla(286, 14%, 69%, 0.281);
     overflow: hidden;
