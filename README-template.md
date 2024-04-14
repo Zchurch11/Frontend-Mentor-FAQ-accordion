@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Zchurch11/Frontend-Mentor-FAQ-accordion]((https://github.com/Zchurch11/Frontend-Mentor-FAQ-accordion))
-- Live Site URL: [https://zchurch11.github.io/Frontend-Mentor-FAQ-accordion/]([https://zchurch11.github.io/Frontend-Mentor-FAQ-accordion/])
+- Live Site URL: [https://zchurch11.github.io/Frontend-Mentor-FAQ-accordion/]((https://your-live-site-url.com))
 
 ## My process
 
