@@ -23,6 +23,9 @@ h1, h3 {
     color: hsl(291.6, 43.9%, 22.4%);
     width: 85%;    
 }
+.hero-img {
+    background-image: url("assets/images/background-pattern-mobile.svg")
+}
 
 main {
     
