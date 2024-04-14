@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: 'Work Sans' ;
+    font-family: "Work Sans" ;
     position: relative;
     background-color: hsl(275, 100%, 97%);
     color: hsl(292, 16%, 49%)   
@@ -23,6 +23,14 @@ h1, h3 {
     color: hsl(291.6, 43.9%, 22.4%);
     width: 85%;    
 }
+.hero-img{
+    background-image: url("assets/images/background-pattern-mobile.svg");
+    height: 275px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    } 
 
 main {
     
@@ -118,7 +126,7 @@ p {
         top: -85px;
     }    
     .hero-img{
-    background-image: url('assets/images/background-pattern-desktop.svg');
+    background-image: url("assets/images/background-pattern-desktop.svg");
     height: 275px;
     background-position: top center;
     background-repeat: no-repeat;
