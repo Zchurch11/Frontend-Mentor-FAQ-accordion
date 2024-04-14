@@ -13,3 +13,8 @@ cards.forEach((card) => {
         
     })
 })
+cards.forEach((card) =>{
+    card.addEventListener('keydown', () =>{
+        card.classList.toggle('active')
+    })
+})
