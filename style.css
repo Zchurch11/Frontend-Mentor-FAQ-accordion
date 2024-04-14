@@ -25,6 +25,11 @@ h1, h3 {
 }
 .hero-img {
     background-image: url("assets/images/background-pattern-mobile.svg")
+    height: 275px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
 }
 
 main {
