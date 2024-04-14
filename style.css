@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: "Work Sans" ;
+    font-family: 'Work Sans' ;
     position: relative;
     background-color: hsl(275, 100%, 97%);
     color: hsl(292, 16%, 49%)   
@@ -23,14 +23,6 @@ h1, h3 {
     color: hsl(291.6, 43.9%, 22.4%);
     width: 85%;    
 }
-.hero-img{
-    background-image: url("assets/images/background-pattern-mobile.svg");
-    height: 275px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    } 
 
 main {
     
@@ -67,10 +59,8 @@ p {
   .faq-head {
     display: flex;
     align-items: center;
-  }
-  .star {
-    width: 25px;
-    height: 25px;
+    
+    
   }
   .card {
     border-bottom: 1px solid hsla(286, 14%, 69%, 0.281);
@@ -81,7 +71,7 @@ p {
 
   }
 
- .card-title {
+    .card-title {
     display: flex;
     position: relative;
     padding: 30px 0;
@@ -92,14 +82,17 @@ p {
 
 
 } 
-/* active states */
-.card-title:hover, h3:hover {
+    /* active states */
+    .card-title:hover, h3:hover, h3 :focus {         
     cursor: pointer;
-     color: hsl(291, 57%, 76%) 
+    color: hsl(291, 57%, 76%) 
 
 }
+    .card-title:focus {
+        color: hsl(291, 57%, 76%)
+    }
 
-.card.active p {
+    .card.active p {
     position: relative;
     opacity: 1;
     font-size: 16px;
@@ -108,17 +101,17 @@ p {
     
     height: 100%;
 }
-.card.active {
-  transition:  1s ease;  
+    .card.active {
+    transition:  1s ease;  
 }
-.card.active .plus {
+    .card.active .plus {
     opacity: 0;
 }
-.card.active .minus {
+    .card.active .minus {
     opacity: 1;
 }
 
-@media (min-width: 700px ){
+    @media (min-width: 700px ){
 
     main {
         width: 600px;
@@ -126,41 +119,35 @@ p {
         top: -85px;
     }    
     .hero-img{
-    background-image: url("assets/images/background-pattern-desktop.svg");
-    height: 275px;
+        background-image: url('/assets/images/background-pattern-desktop.svg');
+        height: 275px;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     } 
     h1 {
-    font-size: 43px;
+        font-size: 43px;
     }
-
-
-
 }
-   
-
-
-@media (min-width: 950px){
+    @media (min-width: 950px){
     
     
     main {
-    width: 600px;
-    top: -95px;
+        width: 600px;
+        top: -95px;
     }
     .container {
-    margin: 0 auto;
+        margin: 0 auto;
     }
     
 
     h1{
-    font-size: 43px;
+        font-size: 43px;
     }
     .star{
-    width:40px;
-    height: 41px; 
+        width:40px;
+        height: 41px; 
     } 
     } 
 
